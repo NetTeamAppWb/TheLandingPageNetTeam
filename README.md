@@ -1,8 +1,14 @@
 # TheLandingPageNetTeam
-LandingPage de EmprendeChef realizado por el equipo de NetTeam
-|NetTeam|Integrantes|
-|1 |Jesus Lazo |
-|2 |Blas |
-|3 |Jose |
-|4 |Camila |
-|5 |Frezzia |
+
+Autores:
+1. Jesus Antonio Lazo Tapia
+2. Ballona Blas Naggit German
+3. Jose
+4. Camila
+4. Frezzia
+
+Segmentos objetivos:
+- Consumidores
+- Emprendedores de comida
+
+Pagina web estatica que proporcionara informacion a los consumidores y emprendedores de comida.
