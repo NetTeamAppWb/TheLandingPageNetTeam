@@ -3,7 +3,6 @@ html {
 }
 .navbar {
   background-color: #F0AF56;
-  height: 90px;
 }
 .navbar-brand {
   display: flex;
@@ -11,6 +10,9 @@ html {
   align-items: center;
   color: white;
   transition: all 0.3s ease;
+}
+.navbar-brand:hover{
+  color: rgb(12, 11, 12);
 }
 .navbar-brand h1 {
   margin: 0;
@@ -21,13 +23,12 @@ html {
 }
 .navbar-nav .nav-item .nav-link {
   color: white;
-  font-size: 18px;
-  font-weight: bold;
+  /*font-size: 18px;
+  font-weight: bold;*/
 }
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
-
 
 /* Incio del contenido main */
 .main-image-content {
@@ -37,6 +38,7 @@ html {
 .main-image-content img {
   width: 50%;
 }
+
 @media screen and (max-width: 991px) {
   .main-image-content {
     flex-direction: column;
@@ -50,6 +52,7 @@ html {
     flex-direction: column;
   }
 }
+
 .main-section {
   padding: 2rem 1.5rem;
 }
@@ -63,10 +66,10 @@ html {
   box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
 }
 .main-section-content h2 {
-  color: #2672d8;
+  color: #030303;
 }
 .main-section-content span {
-  color: #2672d8;
+  color: #020202;
   font-weight: 700;
 }
 .main-section-content > div {
@@ -120,7 +123,7 @@ html {
   gap: 15px;
 }
 .us-title-content h2 {
-  color: #2672d8;
+  color: #F0AF56;
   margin: 0;
 }
 .us-title-content > div {
@@ -133,7 +136,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2672d8;
+  background-color: #F0AF56;
   padding: 1rem;
 }
 .image-us img {
@@ -151,7 +154,7 @@ html {
   padding: 4rem 2rem;
 }
 .services-container h2 {
-  color: #2672d8;
+  color: #F0AF56;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -199,13 +202,13 @@ html {
 
 /*Part subscriptions*/
 
-/*promociones*/
+/*suscripciones*/
 .subscriptions-container {
   padding: 4rem 2rem;
   background-color: rgba(250, 250, 250, 0.5);
 }
 #subscriptions-section > div > h2 {
-  color: #2672d8;
+  color: #F0AF56;
   margin-bottom: 1rem;
 }
 #subscriptions-section > div > p {
@@ -231,7 +234,7 @@ html {
   display: flex;
 }
 #subscriptions-section > div > div:nth-child(3) > div.oferta > main > div {
-  background-color: #2672d8;
+  background-color: #f0860d;
   color: white;
   width: 150px;
   position: relative;
@@ -248,7 +251,7 @@ html {
   width: 0;
   height: 0;
   border-top: 41px solid transparent;
-  border-left: 40px solid #2672d8;
+  border-left: 40px solid #f0860d;
   border-bottom: 43px solid transparent;
 }
 
@@ -317,7 +320,7 @@ html {
 }
 
 .section-title {
-  color: #0073B1;
+  color: #F0AF56;
 }
 
 .section-text {
@@ -325,7 +328,7 @@ html {
 }
 
 .btn-primary {
-  background-color: #0073B1;
+  background-color: #F0AF56;
   border: none;
 }
 
@@ -353,7 +356,7 @@ html {
   padding: 2rem;
 }
 .contact_us-container > div > h2 {
-  color: #2672d8;
+  color: #F0AF56;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -369,7 +372,7 @@ html {
   gap: 10px;
 }
 #contact_us-section > form > button {
-  background-color: rgb(184, 49, 218);
+  background-color: rgb(218, 178, 92);
   color: white;
   border: none;
   padding: 0.8rem;
